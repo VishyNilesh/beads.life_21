@@ -1,6 +1,4 @@
 <?php include 'header.php'; ?>
-<body>
-    <div class="body"></div>    
-</body>
+<?php include 'section_one.php'; ?>    
 <?php include 'footer.php'; ?>
 </html>
