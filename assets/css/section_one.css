@@ -1,3 +1,6 @@
+html,body{
+  overflow-x: hidden;
+}
 .carousel-inner img{
     width: 100%;
     height: 100%;
@@ -75,6 +78,7 @@
   }
   .sectionThree  .carousel-item{
     margin-right: unset !important;
+    margin-bottom: 100px;
   }
   /* Desktop and up */
   
@@ -135,4 +139,37 @@
       display: block;
       visibility: visible;
     }
+  }
+   .animatedText{
+    background-color: black;
+    color: white;
+    min-height: 79px;
+    line-height: 79px;
+    vertical-align: middle;
+    margin-bottom: 200px;
+  }
+  .animatedText p{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .animatedText p { animation: scrollText 30s infinite linear; }
+  @keyframes scrollText {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+  }
+  .antique{
+    background-color: whitesmoke;
+  }
+  .antiqueText{
+    font-weight: 400!important;
+    font-size: 4rem;
+    font-family: 'Italiana', serif;
+    float: right;
+    line-height: 80px;
+  }
+  .ringsImg{
+    height: auto;
+    width: 100%;
+    position: relative;
+    bottom: 80px;
   }
