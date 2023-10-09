@@ -159,6 +159,8 @@ html,body{
   }
   .antique{
     background-color: whitesmoke;
+    position: relative;
+    margin-bottom: 160px;
   }
   .antiqueText{
     font-weight: 400!important;
@@ -173,3 +175,57 @@ html,body{
     position: relative;
     bottom: 80px;
   }
+  .shapeIMG {
+    position: absolute;
+    bottom: 200px; /* Start the image below the container */
+    left: 100%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Adjust for the image width */
+    animation: move-up 1s ease-in-out forwards; /* Animation properties: name, duration, timing function, fill mode */
+}
+.shapeIMGTEXT {
+  position: relative;
+  bottom: 200px; /* Start the image below the container */
+  left: 148%; /* Center the image horizontally */
+  animation: move-up 1s ease-in-out forwards; /* Animation properties: name, duration, timing function, fill mode */
+}
+@keyframes move-up {
+    0% {
+        bottom: 0px;
+    }
+    100% {
+        bottom: 320px;
+    }
+}
+.sectionFive{
+  margin-bottom: 100px;
+}
+.dealImgBig{
+  width: 420px;
+  margin-left: 35px;
+}
+.sectionSix{
+  background-color: black;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.sectionSix .dod {
+  font-family: 'Italiana', serif;
+  font-size: 64px;
+  color: white;
+}
+.sectionSix ol li {
+  font-family: 'Prompt', sans-serif;
+  font-size: 24px;
+  color: white;
+  line-height: 64px;
+}
+.dealImgSmalldiv{
+  background-color: white;
+  margin-top: 60px;
+  max-height: 350px;
+}
+
+.dealImgSmall{
+  width:  220px;
+  padding-top:50px;
+}
